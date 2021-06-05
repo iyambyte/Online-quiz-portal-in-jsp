@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>
+            QuizTest-Portal
+        </title>
+        <script>
+  var today = new Date();
+  var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+  document.getElementById("currentDate").value = today;
+</script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url(exam.jpg);
+    
+    background-size: cover;
+    background-position:center ;
+    font-family: cursive;
+
+}
+.menu-bar{
+    background:rgb(214, 15, 140);
+    text-align:center;
+}
+.menu-bar ul{
+    display:inline-flex;
+    list-style:none;
+    color:chartreuse;
+}
+.menu-bar ul li{
+    width:220px;
+    margin:10px;
+    padding:10px;
+}
+.menu-bar ul li a{
+    text-decoration:none;
+    color:chartreuse;
+}
+.active, .menu-bar ul li:hover{
+    background-color:cornsilk;
+    border-radius:20px;
+}
+.menu-bar .fa{
+    margin-right:8px;
+}
+    </style>
+    
+    </head>
+    <body>
+        <div class="menu-bar">
+        <ul>
+            <li class="active"><i class="fa fa-home"></i><a href="#">Home</a></li>
+            <li><i class="fa fa-mortar-board"></i><a href="t_login.html">Teacher's login</a></li>
+            <li><i class="fa fa-vcard-o"></i><a href="login.html">Student's login</a></li>
+            <li><i class="fa fa-question"></i><a href="aboutus.html">About Us</a></li>
+            <li><i class="fa fa-phone"></i><a href="index.html">Contact Us</a></li>
+            <p id="currentDate"></p>
+
+        </ul>
+        
+        </div>
+        
+       
+    </body>
+</html>

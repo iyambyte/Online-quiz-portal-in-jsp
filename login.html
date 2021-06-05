@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Student_Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script>
+            
+             var newLine = "\r\n"
+ var msg = "Kindly read the General Instruction:"
+ msg += newLine;
+ msg += "1.)Student should get the login credentials with teachers";
+ msg += newLine;
+ msg += "2.)Student can select the subject and he/she can attempt the test";
+ msg+= newLine;
+ msg += "3.)Student should not attempt the test again if it happened it will be resulted in teacher so you may loss your mark. So please avoid it.";
+ msg += newLine;
+ msg += "4.)If Student facing any  problem during test. Student should tell the problem to teachers";
+ msg+= newLine;
+ msg +="5.)Student should complete the test within the given time and before deadline";
+ msg +=newLine;
+ msg +="6.)If student did not attempt the test before deadline link will be expired";
+ msg+= newLine;
+ msg +="Note:If Student face any technical issues like power cut during exam  so that he can attempt it again this issue should be known to teacher before attempting.";
+ msg +=newLine;
+ msg +="***Student should not involve any malpractice during exam!..";
+ msg +=newLine;
+ msg +="**If you agree with above condition press ok to proceed your test!!. Thank you & All the best!!...";
+
+    alert(msg);
+            
+            
+            
+            
+
+            </script>
+        <style>
+         /*   input[type=text],[type = password]{
+            width: 50%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            }
+            input[type=submit] {
+            width: 50%;
+            background-color: blueviolet;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+         a:link {
+        color: red;
+      }
+ 
+
+      a:visited {
+        color: green;
+      }
+ 
+
+      a:hover {
+        color: hotpink;
+      }
+ 
+
+      a:active {
+        color: blue;
+      }
+}*/
+*{
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+body{
+  background:url('something.png') no-repeat;
+  background-size:cover;
+}
+.login-form{
+  width:350px;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  position:absolute;
+  color:salmon;
+
+}
+.login-form h1{
+  font-size: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  margin:40px 0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: oblique;
+}
+.login-form p{
+  font-size: 20px;
+  margin:15px 0;
+}
+.login-form input{
+  font-size:16px;
+  width:100%;
+  padding:15px 10px;
+  border:0;
+  outline:none;
+  border-radius:5px;
+}
+.login-form button{
+  font-size:18px;
+  font-weight:bold;
+  margin:20px 0;
+  padding:10px 15px;
+  width:50%;
+  border-radius:5px;
+}
+        </style>
+        </head>
+        <body style='font-family: cursive;'>
+            
+        
+          <div class="login-form">
+        <h1>Student Login</h1>
+        <form action="loginprocess.jsp" method="GET">
+          <p>User Name</p>
+          <input type="text" name="uname" placeholder="Enter your Student user id" size="25"><br><br>
+          <p>Password</p>  
+          <input type="password" name="pwd" placeholder="Enter your password" size="25"><br><br>
+           <button  type="submit">Submit</button><br><br>
+            
+        </form>
+
+    </div>
+    </body>
+</html>

@@ -1,0 +1,127 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: cursive;
+  margin: 0;
+  
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+ text-align: justify;
+  text-justify: inter-word;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="about-section">
+  <h1>About Us</h1>
+    <p>
+            Mayorbot Vintage Private Limited is a superior quality information technology and web service provider of high-end business solutions to clients in the global scenario. With top notch technological expertise in Software Development, Website Designing, Domain Hosting and Digital Marketing, the company consistently goes beyond its clients' expectations by exceeding expectations in customer service, technology and originality.
+
+Our engagement models are resourceful, personalized and secure based on specific individual needs of our customers. We follow the precise strategy to ensure business evolution, lower functioning costs and swift duration to market thereby making sure of 100% success for our customer's business and in the process ensuring business continuity for us.
+
+Our aim is to design effective solutions for our clients thus creating value for their investment. Technological excellence, customer satisfaction and ethical business process are the core guiding values that drive our organisation in all of our day-to-day functioning of business. We oblige to the needs of all types of clients from SMEs to Corporate Giants and Government Organisations. We believe in the principle of "Always put the customer first and success follows next".
+        </p>
+</div>
+<center>
+
+<h2 style="text-align:center">Our Team</h2>
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="karthicktc.jpeg" alt="karthick" style="width:100%">
+      <div class="container">
+        <h2>Karthick Venkatesh T C</h2>
+        <p class="title">CEO & Founder</p>
+        <p>Well experienced in Jsf,jsp,servlet,java,Database,structs.</p>
+        <p>Madurai,Tamil Nadu , India.</p>
+        <p>karthickvenkatesh@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="mypic.jpeg" alt="Kamal" style="width:100%">
+      <div class="container">
+        <h2>S Kamalesh Kumar</h2>
+        <p class="title">Co-Founder & Director</p>
+        <p>Best Expertise in the html,css,Perl,javafx,Database,c#</p>
+        <p>vellore, Tamil Nadu, India </p>
+        <p>kammukamal@gmail.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+ 
+</center>
+</body>
+</html>
+       
+      
